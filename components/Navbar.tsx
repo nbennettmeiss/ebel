@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex space-x-8 items-center text-sm uppercase tracking-[0.2em]">
-          <a href="#concierge" className="hover:text-amber-600 transition-colors">Concierge</a>
+          <a href="#collections" className="hover:text-amber-600 transition-colors">Discover</a>
           <button className="bg-amber-600 text-white px-6 py-2 hover:bg-amber-700 transition-colors">
             Contact
           </button>

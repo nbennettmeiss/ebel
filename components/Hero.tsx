@@ -25,8 +25,8 @@ const Hero: React.FC = () => {
           <a href="#collections" className="border border-white px-10 py-4 uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
             Explore Collections
           </a>
-          <a href="#concierge" className="bg-amber-600 px-10 py-4 uppercase tracking-widest hover:bg-amber-700 transition-all duration-300">
-            AI Concierge
+          <a href="#heritage" className="bg-amber-600 px-10 py-4 uppercase tracking-widest hover:bg-amber-700 transition-all duration-300">
+            Our Heritage
           </a>
         </div>
       </div>

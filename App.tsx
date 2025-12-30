@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WatchCard from './components/WatchCard';
-import WatchConcierge from './components/WatchConcierge';
 import { WATCHES } from './constants';
 
 const App: React.FC = () => {
@@ -72,9 +71,6 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-
-        {/* AI Concierge Section */}
-        <WatchConcierge />
 
         {/* Lifestyle/Banner Section */}
         <section className="h-[600px] relative flex items-center justify-center">
