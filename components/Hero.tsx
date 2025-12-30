@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -6,7 +5,7 @@ const Hero: React.FC = () => {
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#1a1a1a]">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/ebel-hero/1920/1080" 
+          src="https://images.unsplash.com/photo-1509048191080-d2984bad6ad5?auto=format&fit=crop&q=80&w=1920" 
           alt="Luxury Watch Detail" 
           className="w-full h-full object-cover opacity-60 scale-105"
         />

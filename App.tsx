@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -56,18 +55,18 @@ const App: React.FC = () => {
               </div>
               <div className="mt-12">
                 <img 
-                  src="https://picsum.photos/seed/ebel-sketch/600/400" 
-                  alt="Watch Sketch" 
-                  className="rounded shadow-xl opacity-80"
+                  src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=800" 
+                  alt="Watch Detail" 
+                  className="rounded shadow-xl grayscale"
                 />
               </div>
             </div>
             <div className="relative group">
               <div className="absolute -inset-4 border border-stone-200 -z-10 transition-transform duration-500 group-hover:scale-105"></div>
               <img 
-                src="https://picsum.photos/seed/ebel-heritage/800/1000" 
+                src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&q=80&w=800&h=1000" 
                 alt="Swiss Workshop" 
-                className="w-full h-[700px] object-cover"
+                className="w-full h-[700px] object-cover shadow-2xl"
               />
             </div>
           </div>
@@ -76,11 +75,11 @@ const App: React.FC = () => {
         {/* Lifestyle/Banner Section */}
         <section className="h-[600px] relative flex items-center justify-center">
           <img 
-            src="https://picsum.photos/seed/ebel-luxury/1920/800" 
+            src="https://images.unsplash.com/photo-1517466100140-5e3646849842?auto=format&fit=crop&q=80&w=1920" 
             alt="Lifestyle" 
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 text-center text-white">
             <h2 className="text-4xl md:text-6xl font-serif mb-8">Elegance is Architectural</h2>
             <button className="bg-white text-black px-12 py-4 uppercase tracking-widest hover:bg-amber-600 hover:text-white transition-all duration-300">
