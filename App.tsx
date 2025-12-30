@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WatchCard from './components/WatchCard';
+import WatchConcierge from './components/WatchConcierge';
 import { WATCHES } from './constants';
 
 const App: React.FC = () => {
@@ -88,6 +89,8 @@ const App: React.FC = () => {
           </div>
         </section>
       </main>
+
+      <WatchConcierge />
 
       {/* Footer */}
       <footer className="bg-[#1a1a1a] text-white py-24">
