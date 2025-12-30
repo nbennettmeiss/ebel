@@ -1,8 +1,5 @@
-
 import { GoogleGenAI } from "@google/genai";
 import { WATCHES } from "../constants";
-
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const SYSTEM_INSTRUCTION = `You are the EBEL Virtual Concierge, an expert in fine Swiss watchmaking. 
 Your tone is sophisticated, welcoming, and highly knowledgeable. 
@@ -20,7 +17,10 @@ Instructions:
 
 export async function getConciergeResponse(userMessage: string, history: {role: 'user' | 'model', text: string}[]) {
   try {
+    // Creamos la instancia justo antes de la llamada para asegurar que el API_KEY esté actualizado
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const model = 'gemini-3-flash-preview';
+    
     const contents = history.map(h => ({
       role: h.role,
       parts: [{ text: h.text }]
